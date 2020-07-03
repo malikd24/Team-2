@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ModifyBarComponent } from './dashboard/modify-bar/modify-bar.component';
+import { WeatherWidgetComponent } from './dashboard/weather-widget/weather-widget.component';
 
 @NgModule({
     imports: [
@@ -21,7 +23,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     declarations: [
       AppComponent,
       TopBarComponent,
-      DashboardComponent
+      DashboardComponent,
+      ModifyBarComponent,
+      WeatherWidgetComponent
       
     ],
     bootstrap: [ AppComponent ]
